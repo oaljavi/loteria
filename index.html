@@ -28,7 +28,6 @@ body{
     background: rgb(247,170,158);
     background: linear-gradient(90deg, rgba(247,170,158,1) 20%, rgba(238,22,22,1) 100%, rgba(253,29,67,0.05085784313725494) 100%);
     width: 30%;
-
 }
 
 input{
@@ -42,23 +41,35 @@ button{
     color: white;
     height: 50px;
     width: 7%;
-    margin-top: 50px;
+    margin-top: 10px;
     
 }
 
 h2{
     background: white;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 28px;
-    margin-top: 20px;
-}</style>
+}
+p{
+    font-style: italic;
+    font-size: 12px;
+    background: lightgrey;
+}
+</style>
 </head>
 
 <body>
-   
+
 
   <div id="container">
     <h2>Comprobador de Lotería</h2>
+
+
+    <p>¡AVISO! Este programa ya tiene introducidos los números que juega el OAL. Por lo tanto, NO escribas tu número.
+    Introduce SOLO los premios que vayan cantando los niños y así sabrás si alguno de los tuyos han sido premiados.</p>
+
+    <br>
+   
 
     <!-- Campos de entrada para los cinco números de premio -->
     <label for="premio1">Primer Premio:</label>
@@ -83,9 +94,9 @@ h2{
   </div>
    <button onclick="comprobarNumero()"><h3>COMPROBAR<h3></button>
 
-    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br>
 
-    <img src="logo.png" width="150" height="100">
+    <img src="logo.png" width="130" height="90">
 
     <script>
     // Lista de números premiados
