@@ -1,1 +1,1 @@
-Proyecto para compprobar lotería de Navidad
+Proyecto para comprobar lotería de Navidad
